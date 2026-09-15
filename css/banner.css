@@ -1,0 +1,30 @@
+.banner-inicial {
+    position: relative;
+    width: 100%;
+}
+
+.banner-imagem {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    display: block;
+}
+
+.banner-texto {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(37, 35, 35, 0.75);
+    color: #eee;
+    padding: 1rem 1.5rem;
+}
+
+.banner-texto h2 {
+    font-size: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+.banner-texto p {
+    font-size: .9rem;
+}

@@ -1,11 +1,11 @@
 .cartao {
-    display:flex;
+    display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
     padding: 1rem;
     border-radius: .5rem;
     width: 15rem;
-    box-shadow: .3rem .3rem 0.3rem 0.03rem #eee
+    box-shadow: .3rem .3rem 0.3rem 0.03rem #eee;
 }
 
 .imagem-do-cartao {
@@ -84,54 +84,5 @@
 
 .botao-do-cartao:hover {
     background-color: #1818b0;
-    color: white;
 }
-
-.botao-do-cartao:hover .icone-final-cartao {
-    opacity: 1;
-}
-
-/* main { */
-    /* border: .2rem solid purple; */
-    /* display: flex; */
-    /* flex: 1; */
-    /* padding: 0.5rem; */
-/* } */
-
-/* div.cartao {
-    border: 0.1rem solid #ccc;
-    border-radius: .5rem;
-    margin: 1rem auto;
-    padding: 0.5rem;
-    width: 20rem;
-    height: 28rem;
-    box-shadow: 0.5rem 0.5rem .3rem .3rem #329237;
-} */
-
-/* #imagemCartao {
-    width: 100%;
-    border-radius: .5rem;
-}
-
-button {
-    width: 100%;
-    padding: .5rem;
-    border: none;
-    background-color: blue;
-    color: #eee;
-    border-radius: .5rem;
-}
-
-button:hover {
-    background-color: #2222b3;
-    color: white;
-}
-
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-#link {
-    text-align: right;
 } */

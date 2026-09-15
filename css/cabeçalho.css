@@ -1,13 +1,14 @@
 header {
+  header {
     /* border: 0.2rem solid red; */
     height: 4rem;
     display: flex;
-    /* justify-content: center; alinhar horizontalmente */
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     padding: .5rem;
     background-color: #252323;
-    color: #eee
+    color: #eee;
 }
 
 .logo {
@@ -56,4 +57,5 @@ header {
 
 .menu-hamburguer #hamburguer:hover {
     color: yellowgreen;
+}
 }

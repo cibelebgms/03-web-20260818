@@ -1,8 +1,10 @@
-@import url("cabecalho.css");
+@import url("cabeçalho.css");
+@import url("banner.css");
 @import url("corpo.css");
-@import url("menuLateral.css");
-@import url("cartao.css");
-@import url("rodape.css");
+@import url("menulateral.css");
+@import url("cartão.css");
+@import url("contato.css");
+@import url("rodapé.css");
 
 * {
     font-size: 16px;
@@ -12,8 +14,6 @@
 }
 
 body {
-    /* border: 0.5rem solid aqua; */
-    min-height: 100vh; /* view-port height */
     display: flex;
     flex-direction: column;
 }

@@ -1,11 +1,10 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/estilo.css">
-    <script src="funcionalidade.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Meu Site</title>
     <script src="https://kit.fontawesome.com/ec3a3fcdd8.js" crossorigin="anonymous"></script>
 </head>
@@ -18,11 +17,20 @@
             <i id="hamburguer" class="fa-solid fa-bars"></i>
         </div>
     </header>
-    <section>
+
+    <section class="banner-inicial" id="inicio">
+        <img class="banner-imagem" src="capa_site-e-feed.jpeg" alt="Capa do site de notícias">
+        <div class="banner-texto">
+            <h2>Fique por dentro das últimas notícias</h2>
+            <p>Esporte, educação, saúde e economia: tudo em um só lugar.</p>
+        </div>
+    </section>
+
+    <section id="noticias-secao">
         <nav>
             <ul class="menu-lateral">
                 <li>
-                    <a href="#">
+                    <a href="#noticias-secao">
                         <div class="opcao">
                             <div class="icone-inicial">
                                 <i class="fa-solid fa-newspaper"></i>
@@ -35,7 +43,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="#contato">
                         <div class="opcao">
                             <div class="icone-inicial">
                                 <i class="fa-solid fa-envelope"></i>
@@ -76,18 +84,18 @@
             </ul>
         </nav>
         <main id="noticias" class="container">
-            <div class="cartao">
-                <img class="imagem-do-cartao" src="./assets/img/mobilidade.png" alt="imagem de ônibus nas ruas">
+            <article class="cartao">
+                <img class="imagem-do-cartao" src="capa_site-e-feed.jpeg" alt="time de futebol regional comemorando">
                 <section class="corpo-do-cartao">
-                    <h1 class="titulo-do-cartao">Mobilidade Urbana</h1>
+                    <h2 class="titulo-do-cartao">Copa Regional de Futebol</h2>
                     <p class="classificacao">
-                        <span class="categoria-da-noticia">Transporte</span>
-                        <span class="data-da-noticia">05/03/2026</span>
+                        <span class="categoria-da-noticia">Esporte</span>
+                        <span class="data-da-noticia">10/09/2026</span>
                     </p>
                     <p class="descricao-da-noticia">
-                        Prefeitura lança novo plano de mobilidade urbana.
+                        Time local se classifica para a final do campeonato estadual.
                     </p>
-                    <p class="autor-da-noticia">Ana Maria Pires</p>
+                    <p class="autor-da-noticia">Rafael Souza</p>
                 </section>
                 <a href="#">
                     <div class="botao-do-cartao">
@@ -97,19 +105,20 @@
                         </div>
                     </div>
                 </a>
-            </div>
-            <div class="cartao">
-                <img class="imagem-do-cartao" src="./assets/img/festival-musica.png" alt="imagem de ônibus nas ruas">
+            </article>
+
+            <article class="cartao">
+                <img class="imagem-do-cartao" src="sala_de_aula_joao_bittar.jpg" alt="sala de aula com alunos">
                 <section class="corpo-do-cartao">
-                    <h1 class="titulo-do-cartao">Festival de música</h1>
+                    <h2 class="titulo-do-cartao">Reforma no Ensino Médio</h2>
                     <p class="classificacao">
-                        <span class="categoria-da-noticia">Entretenimento</span>
-                        <span class="data-da-noticia">24/08/2026</span>
+                        <span class="categoria-da-noticia">Educação</span>
+                        <span class="data-da-noticia">02/09/2026</span>
                     </p>
                     <p class="descricao-da-noticia">
-                        Festival super master blaster
+                        Novo currículo traz mais disciplinas eletivas para os alunos.
                     </p>
-                    <p class="autor-da-noticia">Henrique Marques Pyramo</p>
+                    <p class="autor-da-noticia">Juliana Costa</p>
                 </section>
                 <a href="#">
                     <div class="botao-do-cartao">
@@ -119,19 +128,20 @@
                         </div>
                     </div>
                 </a>
-            </div>
-            <div class="cartao">
-                <img class="imagem-do-cartao" src="./assets/img/gastronomia.png" alt="imagem de ônibus nas ruas">
+            </article>
+
+            <article class="cartao">
+                <img class="imagem-do-cartao" src="saude.123.jpg" alt="médicos em atendimento hospitalar">
                 <section class="corpo-do-cartao">
-                    <h1 class="titulo-do-cartao">Gastronomia</h1>
+                    <h2 class="titulo-do-cartao">Campanha de Vacinação</h2>
                     <p class="classificacao">
-                        <span class="categoria-da-noticia">Entretenimento</span>
-                        <span class="data-da-noticia">05/03/2026</span>
+                        <span class="categoria-da-noticia">Saúde</span>
+                        <span class="data-da-noticia">15/08/2026</span>
                     </p>
                     <p class="descricao-da-noticia">
-                        Super churrascão. Evento open bar e open food!
+                        Postos de saúde abrem neste sábado para vacinação contra a gripe.
                     </p>
-                    <p class="autor-da-noticia">Michael</p>
+                    <p class="autor-da-noticia">Fernanda Lima</p>
                 </section>
                 <a href="#">
                     <div class="botao-do-cartao">
@@ -141,19 +151,20 @@
                         </div>
                     </div>
                 </a>
-            </div>
-            <div class="cartao">
-                <img class="imagem-do-cartao" src="./assets/img/tecnologia6g.png" alt="imagem de ônibus nas ruas">
+            </article>
+
+            <article class="cartao">
+                <img class="imagem-do-cartao" src="bolsa.V789.jpg" alt="gráfico de bolsa de valores">
                 <section class="corpo-do-cartao">
-                    <h1 class="titulo-do-cartao">Tecnologia 6G</h1>
+                    <h2 class="titulo-do-cartao">Alta do Dólar</h2>
                     <p class="classificacao">
-                        <span class="categoria-da-noticia">Tecnologia</span>
-                        <span class="data-da-noticia">25/08/2026</span>
+                        <span class="categoria-da-noticia">Economia</span>
+                        <span class="data-da-noticia">14/09/2026</span>
                     </p>
                     <p class="descricao-da-noticia">
-                        Pesquisas sobre como a rede 6G opera
+                        Moeda americana fecha em alta pela terceira semana seguida.
                     </p>
-                    <p class="autor-da-noticia">Priscila</p>
+                    <p class="autor-da-noticia">Carlos Andrade</p>
                 </section>
                 <a href="#">
                     <div class="botao-do-cartao">
@@ -163,10 +174,34 @@
                         </div>
                     </div>
                 </a>
-            </div>
+            </article>
         </main>
     </section>
-    <footer>&copy, Meu Site, 2026, 😊</footer>
+
+    <section class="contato" id="contato">
+        <h2>Fale conosco</h2>
+        <form class="contact-form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <p>Siga nas redes sociais</p>
+        <ul class="social-links">
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">X (Twitter)</a></li>
+        </ul>
+        <p>&copy; Meu Site, 2026, 😊</p>
+    </footer>
+
+    <script src="funcionalidades.js"></script>
 </body>
 
 </html>

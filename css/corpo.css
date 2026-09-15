@@ -4,13 +4,6 @@ section {
     flex: 1;
 }
 
-nav {
-    /* border: .2rem solid yellow; */
-    width: 10rem;
-    background-color: #eee;
-    padding: .5rem;
-}
-
 .container {
     display: flex;
     flex: 1;
